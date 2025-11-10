@@ -1,10 +1,9 @@
-// App.js
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from './LoginScreen';
 import RegisterScreen from './RegisterScreen';
-import MainScreen from './MainScreen'; // Your original screen
+import MainScreen from './MainScreen';
 
 const Stack = createStackNavigator();
 
